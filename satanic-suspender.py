@@ -1,4 +1,4 @@
-#!/usr/bin/python
++52 479 136 0851#!/usr/bin/python
 
 ########################
 # PROPIEDAD DE SATANIC #
